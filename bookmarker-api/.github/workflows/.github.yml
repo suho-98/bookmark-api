@@ -35,3 +35,5 @@ jobs:
             -DskipTests \
             -Djib.to.auth.username=${{ secrets.DOCKER_USERNAME }} \
             -Djib.to.auth.password=${{ secrets.DOCKER_PASSWORD }}
+
+            service.ok
